@@ -110,7 +110,7 @@ const sortedProducts = computed(() => {
             <h5 class="card-title">{{ product.name }}</h5>
             <p class="card-text">{{ product.description }}</p>
             <p class="card-text"><small class="text-muted">Catégorie: {{ product.category }}</small></p>
-            <p class="card-text fw-bold">{{ product.price.toFixed(2) }} €</p>
+            <p class="card-text fw-bold">{{ product.price.toFixed(2) }} $</p>
           </div>
         </div>
       </div>
